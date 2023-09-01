@@ -1,0 +1,27 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.configuration-controller-container {
+  background-color: #475569;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+.responsive-controller-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: -40px;
+  padding-top: 15px;
+}
+.heading {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.label-text {
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 10px;
+}

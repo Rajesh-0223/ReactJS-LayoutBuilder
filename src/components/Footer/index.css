@@ -1,0 +1,23 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.Footer-container {
+  background-color: #cbd5e1;
+  height: 80px;
+  width: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+@media screen and (max-width: 768px) {
+  .Footer-container {
+    width: 250px;
+  }
+}
+.footer-heading {
+  color: #475569;
+  font-size: 30px;
+  font-weight: 500;
+}
